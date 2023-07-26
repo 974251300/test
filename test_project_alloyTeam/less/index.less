@@ -1,0 +1,49 @@
+// out: ../css/
+
+.bg-body-tertiary{
+    background-color: transparent !important;
+    .navbar-collapse{
+        flex-grow: 0;
+    }
+}
+.carousel{
+    //max显示宽度最大-width当前宽度
+
+
+
+
+    @media (max-width: 768px) {
+        .carousel-item{
+            height: 300px;
+        }
+    }
+    @media(min-width: 768px) {
+        .carousel-item{
+            height: 400px;
+         
+        }
+    }
+    @media(min-width: 992px) {
+        .carousel-item{
+         
+            height: 500px;
+        }
+    }
+    .carousel-item{
+        // height: 500px;
+        background-size: cover;
+        background-position: center 0;
+    }
+    .carousel-item:nth-child(1){
+        background-image: url(../images/img-save/104091926.jpg)
+    }
+    .carousel-item:nth-child(2){
+        background-image: url(../images/img-save/1129455450.jpg)
+    }
+    .carousel-item:nth-child(3){
+        background-image: url(../images/img-save/104091926.jpg)
+    }
+    .carousel-item:nth-child(4){
+        background-image: url(../images/img-save/104091926.jpg)
+    }
+}
