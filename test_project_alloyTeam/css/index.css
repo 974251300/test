@@ -35,3 +35,29 @@
 .carousel .carousel-item:nth-child(4) {
   background-image: url(../images/img-save/104091926.jpg);
 }
+.project {
+  margin-top: 60px;
+  text-align: center;
+}
+.project .row div {
+  height: 200px;
+  margin-bottom: 10px;
+}
+.project .row div a {
+  display: block;
+  height: 200px;
+  border-radius: 4px;
+  background-color: red;
+}
+.project .row div:nth-child(1) a {
+  background-color: gold;
+}
+.project .row div:nth-child(2) a {
+  background-color: black;
+}
+.project .row div:nth-child(3) a {
+  background-color: chocolate;
+}
+.project .row div:nth-child(4) a {
+  background-color: green;
+}
